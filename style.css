@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 400px;
+  text-align: center;
+  margin-top: 20px;
+}
+.form-control {
+  border: none;
+}
+.form-control input {
+  width: 300px;
+  margin: 10px 0;
+}
+.form-control .inp-btn {
+  margin: 10px 0;
+}
+.table-main {
+  text-align: center;
+  margin: 10px 10px;
+}
+.img {
+  width: 20px;
+}
+.btn-delete,
+.btn-edit {
+  border: none;
+  background: transparent;
+  margin-right: 10px;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+.search-block {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+.search-block .inp-search {
+  border: 3px solid #2869e0;
+  max-width: 400px;
+  width: 100%;
+}
